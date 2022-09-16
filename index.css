@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.caja-maestra{
+    display: flex;
+}
+
+.caja-azul{
+    background-color: rgb(60, 105, 255);
+    width: 492px;
+    height: 840px;
+    text-align: center;
+}
+
+.pajaro-grande{
+    margin-top: 200px;
+}
+
+.contenedor-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-pajaro-pequeño{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 45px;
+}
+
+h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    color: rgb(231, 231, 231);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: rgb(231, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.botones{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.boton-1{
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    border-radius: 40px;
+    padding-left: 60px;
+}
+
+.boton-1:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.registrarse{
+    margin-left: 10px;
+}
+
+.boton-2{
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    border-radius: 40px;
+    padding-left: 52px;
+    margin-top: 10px;
+}
+
+.boton-2:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.lineas-circulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 293px;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+hr{
+    width: 130px;
+}
+
+.o{
+    color: white;
+    font-size: 14px;
+}
+
+.boton-3{
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    border-radius: 40px;
+    padding-left: 15px;
+    margin-top: 10px;
+    background-color: rgb(45, 125, 255);
+    color: white;
+    font-size: 16px;
+}
+
+.terminos-privacidad{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.link-cortos{
+    color: rgb(45, 125, 255);
+    text-decoration: none;
+}
+
+.link-cortos:hover{
+    text-decoration: underline;
+}
+
+h4{
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 65px;
+}
+
+.boton-4{
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 45px;
+    border-radius: 40px;
+    padding-left: 100px;
+    margin-top: 15px;
+    background-color: black;
+    color: rgb(45, 125, 255);
+    font-size: 16px;
+    border: 1px gray solid;
+}
+
+.contenedor-2{
+    margin-top: 20px;
+}
+
+.primera-linea{
+    text-align: center;
+}
+
+.links{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.inc{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+@media(max-width: 1050px){
+    .caja-maestra{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pajaro-grande{
+        margin-top: 1px;
+        width: 200px;
+    }
+
+    .caja-azul{
+        width: auto;
+        height: 10%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 35%;
+    }
+}
+
+@media(max-width: 960px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 33%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 834px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 31%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 766px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 29%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 687px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 26%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 587px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 22%;
+    }
+
+    .pajaro-grande{
+        width: 200px;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 487px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 17%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 495px){
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 17%;
+    }
+
+    .contenedor-1{
+        text-align: center;
+    }
+}
+
+@media(max-width: 435px){
+    .contenedor-1{
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        margin-left: 12%;
+    }
+
+    .pajaro-grande{
+        width: 200px;
+    }
+}
+
+@media(max-width: 380px){
+    .contenedor-1{
+        text-align: center;
+    }
+
+    .pajaro-grande{
+        width: 300px;
+    }
+
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        width: 270px;
+        text-align: center;
+    }
+
+    .lineas-circulo{
+        width: 235px;
+    }
+
+    hr{
+        width: 100px;
+    }
+}
+
+@media(max-width: 350px){
+    .contenedor-1{
+        text-align: center;
+    }
+
+    .botones{
+        margin-left: 30px;
+    }
+
+    .boton-1, .boton-2, .boton-3, .boton-4, .lineas-circulo{
+        width: 250px;
+        padding-left: 18px;
+    }
+
+    .pajaro-grande{
+        width: 250px;
+    }
+
+    .lineas-circulo{
+        width: 210px;
+    }
+
+    hr{
+        width: 100px;
+    }
+}
+
+@media(max-width: 325px){
+    .contenedor-1{
+        margin-left: -30px;
+    }
+
+    .botones{
+        margin-left: 10px;
+    }
+
+    .terminos-privacidad{
+        margin-left: 20px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .boton-1, .boton-2, .boton-3, .lineas-circulo{
+        width: 250px;
+        text-align: center;
+    }
+
+    .boton-4{
+        padding-left: 25%;
+    }
+
+    .pajaro-grande{
+        width: 250px;
+    }
+
+    .lineas-circulo{
+        width: 210px;
+    }
+
+    hr{
+        width: 100px;
+    }
+}
